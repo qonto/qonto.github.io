@@ -1,0 +1,54 @@
+:root {
+    --primary-black: #1d1d1b;
+    --primary-white: #fff;
+}
+
+body {
+    font-family: "PolySans",sans-serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--primary-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    color: var(--primary-white);
+}
+
+.header-span {
+    font-size: 32px;
+}
+
+.header-logo {
+    filter: brightness(0) invert(1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    width: 600px;
+}
+
+.card-content {
+    margin-bottom: 64px;
+}
+
+.header-title {
+    display: flex;
+}
+.header-span {
+    margin-left: 10px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
